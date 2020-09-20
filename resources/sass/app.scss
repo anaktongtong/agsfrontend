@@ -5,7 +5,7 @@
 @import 'variables';
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
