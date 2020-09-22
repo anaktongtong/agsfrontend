@@ -50,12 +50,36 @@
             <a class="nav-link page-scroll" href="#contactus">Contact Us</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item d-flex">
+                <div class="collapse fade" id="searchForm">
+                    <input id="search" type="search" class="form-control border-0" placeholder="search">
+                </div>
+                <a class="nav-link ml-auto" 
+                    href="#searchForm" 
+                    data-target="#searchForm" 
+                    data-toggle="collapse">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+        </ul>
+       <!--  <button class="searchIcon" onclick="myFunction()">V</button>
+        <form id="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        </form> -->
       </div>
     </nav>
+    <div class="search-form-wrapper">
+       <form class="search-form" id="" action="">
+          <div class="input-group">
+             <input type="text" name="search" class="search form-control" placeholder="Search">
+             <span class="input-group-addon" id="basic-addon2"><i class="fa fa-search" aria-hidden="true"></i>
+             </span>
+             <span class="input-group-addon search-close" id="basic-addon2"><i class="fa fa-window-close" aria-hidden="true"></i>
+             </span>
+          </div>
+       </form>
+    </div>
 
 <main role="main">
   <!-- Main jumbotron for a primary marketing message or call to action -->
