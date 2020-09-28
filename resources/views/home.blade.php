@@ -9,6 +9,11 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="{{ asset('home/assets/dist/css/style.css') }}" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8e10b748b9.js" crossorigin="anonymous"></script>
@@ -26,8 +31,8 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link page-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link page-scroll" href="#aboutus">About Us</a>
@@ -38,14 +43,17 @@
           <li class="nav-item">
             <a class="nav-link page-scroll" href="#project">Project</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle page-scroll" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Article</a>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#article">Article</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle page-scroll" href="#article" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Article</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Our New Armada TB. Charly VII</a>
-              <a class="dropdown-item" href="#">10 Hal yang Wajib diperhatikan Sebelum Menyewa Tongkang</a>
-              <a class="dropdown-item" href="#">Apa Perbedaan Tug Boat, Tongkang dan LCT?</a>
+              <a class="dropdown-item" href="#">Cara Menyewa Tongkang</a>
+              <a class="dropdown-item" href="#">Detail Tug Boat, Tongkang dan LCT</a>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link page-scroll" href="#contactus">Contact Us</a>
           </li>
@@ -89,9 +97,9 @@
         <div class="jumbotron min-vh-100 text-center m-0 bg-info d-flex flex-column justify-content-center">
           <div class="container">
             <h1 class="jumbotronText1">Artha Graha Samudera</h1>
-            <h5 class="jumbotronText2">Perusahaan Pelayaran dan Bongkar Muat</h5>
+            <h5 class="jumbotronText2">perusahaan pelayaran dan bongkar muat</h5>
             <hr class="hrJumbotron">
-            <h5 class="jumbotronText2">The Best Partner for Your Shipping Needs</h5>
+            <h5 class="jumbotronText3">The Best Partner for Your Shipping Needs</h5>
             <a class="btn btn-light mt-5 fa fa-chevron-down page-scroll btnJumbotron" href="#aboutus" role="button" aria-hidden="true"></a>
           </div>
         </div>
@@ -101,21 +109,19 @@
 
 
   <!-- about us -->
-  <div class="container-fluid" >
+  <div class="container-fluid aboutbgcolor" >
     <div class="container" id="aboutus">
       <h1 class="text-center mb-0">ABOUT US</h1>
       <div class="aboutDesc">      
-        <p class="text-justify pt-4 mb-0">  Pada tahun 1995,  Artha Graha Samudera masih merupakan kantor cabang dari PT. Sinar Pasific. Kemudian, pada tahun 1997 kami mendirikan perusahaan secara mandiri dengan nama awal PT. Daya Tirta Samudera. Seiring dengan berjalannya waktu, terbitlah Peraturan Pemerintah yang tertuang dalam Pasal 1 Peraturan Menteri Perhubungan Nomor PM 93 tahun 2013 tentang Penyelenggaraan dan Pengusahaan Angkutan Laut yang menyatakan bahwa perusahaan pelayaran harus memiliki armada sendiri.​ Maka dari itu, izin PT. Daya Tirta Samudera ditarik. Namun. dengan semangat baru dan manajemen yang berpengalaman, kini Artha Graha Samudera telah berkembang dan memiliki 2 perusahaan yang bernaung di bawah Artha Graha Samudera, yaitu :</p>
+        <p class="text-justify pt-4 mb-0 textaboutfont">
+         Pada tahun 1995,  Artha Graha Samudera masih merupakan kantor cabang dari PT. Sinar Pasific. Kemudian, pada tahun 1997 kami mendirikan perusahaan secara mandiri dengan nama awal PT. Daya Tirta Samudera. Seiring dengan berjalannya waktu, terbitlah Peraturan Pemerintah yang tertuang dalam Pasal 1 Peraturan Menteri Perhubungan Nomor PM 93 tahun 2013 tentang Penyelenggaraan dan Pengusahaan Angkutan Laut yang menyatakan bahwa perusahaan pelayaran harus memiliki armada sendiri.​ Maka dari itu, izin PT. Daya Tirta Samudera ditarik. Namun. dengan semangat baru dan manajemen yang berpengalaman, kini Artha Graha Samudera telah berkembang dan memiliki 2 perusahaan yang bernaung di bawah Artha Graha Samudera, yaitu PT. Artha Graha Samudera & PT. Artha Graha Stuwarindo</p>
       </div>
-      <div class="row justify-content-center pb-2">
+      <!-- <div class="row justify-content-center pb-2 pt-3">
         <div class="col-md-auto ml-5 mr-5">
           <div class="icon-block">
             <div class="text-center">
-              <img src="/home/assets/img/logo ags.png" alt="logoags.png" class="about-logo">
-              <div class="w-auto text-center" style="font-family: inherit">
+              <div class="w-auto text-center aboutnamapt">
                 <a>PT. ARTHA GRAHA SAMUDERA</a>
-                <hr class="ml-5 mr-5">
-                <a>Perusahaan Pelayaran</a>
               </div>
             </div>
           </div>
@@ -123,11 +129,40 @@
         <div class="col-md-auto ml-5 mr-5">
           <div class="icon-block">
             <div class="text-center">
-              <img src="/home/assets/img/logo stuwarindo.png" alt="logoags.png" class="about-logo">
-              <div class="w-auto text-center" style="font-family: inherit">
+              <div class="w-auto text-center aboutnamapt">
                 <a>PT. ARTHA GRAHA STUWARINDO</a>
-                <hr  class="ml-5 mr-5">
-                <a>Perusahaan Bongkar Muat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+
+<!-- nilai perusahaan -->
+  <div class="container">
+  <!-- info panel -->
+    <div class="row justify-content-center">
+      <div class="col-lg-10 infopanel">
+       <h2 class="text-center headinginfopanel"
+       > Our 3 Core Company Values </h2> <hr class="pb-3">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 ">
+            <div class="row">
+              <div class="col-lg">
+                <img src="/home/assets/img/responsbility.png" class="imageinfopanel">
+                <h4 class="text-center pt-3 contentinfopanel"
+                >Responbility</h4>
+              </div>
+              <div class="col-lg">
+                <img src="/home/assets/img/integrity.png" class="imageinfopanel">
+                <h4 class="text-center pt-3 contentinfopanel"
+                >Integrity</h4>
+              </div>
+              <div class="col-lg">
+                <img src="/home/assets/img/professionalism.png" class="imageinfopanel">
+                <h4 class="text-center pt-3 contentinfopanel"
+                >Professional</h4>
               </div>
             </div>
           </div>
@@ -137,37 +172,39 @@
   </div>
 
   <!-- service -->
-  <div class="container-fluid bg-light" id="service">
+  <div class="container-fluid" id="service">
     <div class="container" id="spy-service">
-      <h1 class="text-center black-text mb-0">SERVICES</h1>
-      <div class="row pb-2 pt-4">
-        <div class="col-md-6">
-          <div class="icon-block">
-            <h5 class="text-center mb-0">PT. ARTHA GRAHA SAMUDERA</h5>
-            <div class="serviceDesc">
-              <p class="text-justify mb-0 pt-4">
-                <a class="font-italic text-decoration-none text-reset">PT. Artha Graha Samudera</a> merupakan perusahaan pelayaran yang bergerak dibidang usaha industri jasa transportasi laut dengan tugas melaksanakan perpindahan suatu barang melalui perairan. <a class="font-italic text-decoration-none text-reset">PT. Artha Graha Samudera</a> melayani kegiatan sewa menyewa <a class="font-italic text-decoration-none text-reset">(Chartering)</a> kapal <a class="font-italic text-decoration-none text-reset">Landing Craft Tank (LCT)</a>, tongkang <a class="font-italic text-decoration-none text-reset">(Barge)</a> dengan kapal tundanya <a class="font-italic text-decoration-none text-reset">(Tug Boat)</a> yang secara umum dikenal sebagai <a class="font-italic text-decoration-none text-reset">(Tug & Barge)</a>.
-              </p>
+      <h1 class="text-center black-text mb-0">SERVICE</h1>
+        <div class="row pb-2">
+          <div class="col-md-6">
+            <img src="/home/assets/img/logo ags.png" alt="logoags.png" class="service-logo">
+            <h5 class="text-center mb-0 textaboutfont"
+            >PT. ARTHA GRAHA SAMUDERA<br><hr class="mr-5 ml-5">Perusahaan Pelayaran</h5>
+              <div class="serviceDesc">
+                <p class="text-justify mb-0 pt-4 textaboutfont">
+                <a class="font-italic text-decoration-none text-reset">PT. Artha Graha Samudera</a> merupakan perusahaan pelayaran yang bergerak dibidang usaha industri jasa transportasi laut dengan tugas melaksanakan perpindahan suatu barang melalui perairan. <a class="font-italic text-decoration-none text-reset">PT. Artha Graha Samudera</a> melayani kegiatan sewa menyewa <a class="font-italic text-decoration-none text-reset">(Chartering)</a> kapal <a class="font-italic text-decoration-none text-reset">Landing Craft Tank (LCT)</a>, tongkang <a class="font-italic text-decoration-none text-reset">(Barge)</a> dengan kapal tundanya <a class="font-italic text-decoration-none text-reset">(Tug Boat)</a> yang secara umum dikenal sebagai <a class="font-italic text-decoration-none text-reset">(Tug & Barge)</a>
+                </p>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <div class="icon-block">
+              <img src="/home/assets/img/logo stuwarindo.png" alt="logoags.png" class="service-logo">
+              <h5 class="text-center mb-0 textaboutfont">PT. ARTHA GRAHA STUWARINDO<br><hr class="mr-5 ml-5">
+              Perusahaan Bongkar Muat</h5>
+              <div class="serviceDesc">
+                <p class="text-justify mb-0 pt-4 textaboutfont">
+                  <a class="font-italic text-decoration-none text-reset">PT. Artha Graha Stuwarindo</a> merupakan perusahaan bongkar muat yang bergerak dibidang usaha bongkar muat barang dari dan ke kapal di pelabuhan. <a class="font-italic text-decoration-none text-reset">PT. Artha Graha Stuwarindo</a> melayani kegiatan pembongkaran    barang   dari   kapal   ke  dermaga / tongkang / truk atau memuat barang  dari dermaga / tongkang / truk ke dalam kapal sampai dengan tersusun dalam palka kapal dengan menggunakan derek kapal atau derek darat <a class="font-italic text-decoration-none text-reset">(Stevedoring)</a><br>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="icon-block">
-            <h5 class="text-center mb-0">PT. ARTHA GRAHA STUWARINDO</h5>
-            <div class="serviceDesc">
-              <p class="text-justify mb-0 pt-4">
-                <a class="font-italic text-decoration-none text-reset">PT. Artha Graha Stuwarindo</a> merupakan perusahaan bongkar muat yang bergerak dibidang usaha bongkar muat barang dari dan ke kapal di pelabuhan. <a class="font-italic text-decoration-none text-reset">PT. Artha Graha Stuwarindo</a> melayani kegiatan pembongkaran    barang   dari   kapal   ke  dermaga / tongkang / truk atau memuat barang  dari dermaga / tongkang / truk ke dalam kapal sampai dengan tersusun dalam palka kapal dengan menggunakan derek kapal atau derek darat <a class="font-italic text-decoration-none text-reset">(Stevedoring)</a>.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
   <!-- project -->
-  <div class="container-fluid "id="project">
-    <h1 class="text-center mb-0 pb-4">PROJECTS</h1>
+  <div class="container-fluid projectbgcolor"id="project">
+    <h1 class="text-center mb-0 pb-4">PROJECT</h1>
+    <div class="container carouselcontainer">
       <div id="carouselExampleCaptions" class="carousel slide carousel-fade mb-2" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -175,6 +212,9 @@
           <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -198,6 +238,15 @@
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
             </div>
           </div>
+          <!-- <div class="carousel-item">
+            <video playsinline="playsinline" autoplay="autoplay" muted="unmuted" loop="loop" class="d-block w-100">
+              <source src="/home/assets/img/video 2.mp4" type="video/mp4">
+            </video>
+            <div class="carousel-caption d-none d-md-block">
+             <!-<h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div> --> 
           <div class="carousel-item">
             <img src="/home/assets/img/pasir.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
@@ -212,6 +261,45 @@
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
             </div>
           </div>
+         <!--  <div class="carousel-item">
+            <video playsinline="playsinline" autoplay="autoplay" muted="unmuted" loop="loop" class="d-block w-100">
+              <source src="/home/assets/img/video 3.mp4" type="video/mp4">
+            </video>
+            <div class="carousel-caption d-none d-md-block">
+             <! <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div> -->
+          <div class="carousel-item">
+            <img src="/home/assets/img/angkattugboat.jpeg"class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+             <!--  <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/home/assets/img/lct.jpeg"class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+             <!--  <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/home/assets/img/project.jpeg"class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+             <!--  <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+            </div>
+          </div>
+          <!-- <div class="carousel-item">
+            <video playsinline="playsinline" autoplay="autoplay" muted="unmuted" loop="loop" class="d-block w-100">
+              <source src="/home/assets/img/video.mp4" type="video/mp4">
+            </video>
+            <div class="carousel-caption d-none d-md-block">
+             <!-<h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div> --> 
         </div>
         <div class="carousel-control-prev " href="#carouselExampleCaptions" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -222,30 +310,43 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+    </div>
   </div>
 
   <!-- article -->
-  <div class="container-fluid bg-light" id="article">
-    <div class="container">
-      <h1 class="text-center">ARTICLES</h1>
+  <div class="container-fluid">
+    <div class="container" id="article">
+      <h1 class="text-center">ARTICLE</h1>
       <!-- Example row of columns -->
-      <div class="row pt-4 pb-2">
-        <div class="col-md-4">
-          <h6>Our New Armada TB.Charly VII</h6>
-          <img class="card-img-top pt-2 mt-2 imgArt" src="/home/assets/img/foto1.jpeg" alt="Card image">
-          <p class="pt-2">TB. Charly VII </p>
-          <a class="btn btn-read mt-3" href="#" role="button">Read More &raquo;</a>
+      <div class="row pt-4 pb-5">
+        <div class=" col-lg-7 md-4 sm-12 mb-3">
+          <img class="card-img-top imgArt" src="/home/assets/img/foto1.jpeg" alt="Card image">
         </div>
-        <div class="col-md-4">
-          <h6>Cara Menyewa Tongkang</h6>
-          <p class="pt-2">1. Butuh tongkang yang berapa feet? <br>2. Butuh tongkang berapa set, atau tongkangnya aja berapa unit? <br>3. Tongkang tahun berapa? <br>4. Yang biasa atau yang pakai ramdoor dan sideboard?<br> 5. Untuk angkut apa dan total muatan berapa? <br> 6. Sistem sewa TC (Time Charter) per ... </p>
-          <a class="btn btn-read mt-3" href="#" role="button">Read more &raquo;</a>
+        <div class="col-lg-4 md-4 sm-12 mb-3">
+          <h6 class="styleheadingarticle1 pt-2">Our New Armada <br>TB.Charly VII</h6>
+          <a class="btn btn-read" href="#" role="button">Read More &raquo;</a>
+      </div>
+      <div class="row pt-4 pb-2 mr-2">   
+        <div class="col-lg-6
+        md-4 sm-12 mb-3 pr-1 pb-2">
+          <div class="card" style="width:550px">
+            <!-- <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%"> -->
+            <div class="card-body">
+              <h4 class="card-title styleheadingarticle2">Cara Menyewa Tongkang</h4>
+              <!-- <p class="card-text pt-2 pb-4">1. Butuh tongkang yang berapa feet? <br>2. Butuh tongkang berapa set, atau tongkangnya aja berapa unit? <br>3. Tongkang tahun berapa? <br>4. Yang biasa atau yang pakai ramdoor dan sideboard?<br> 5. Untuk angkut apa dan total muatan berapa? <br> 6. Sistem sewa TC (Time Charter) per ... <br> 7. <br>8.<br>9.<br>10. </p> -->
+              <a class="btn btn-read" href="#" role="button">Read More &raquo;</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h6>Detail Tug Boat, Tongkang dan LCT</h6>
-          <img class="card-img-top pt-2 mt-2 imgArt" src="/home/assets/img/fototgbg.jpg" alt="Card image">
-          <p class="pt-2">Tug Boat adalah ... </p>
-          <a class="btn btn-read mt-3" href="#" role="button">Read More &raquo;</a>
+        <div class="col-lg-6
+        md-4 sm-12 mb-3">
+          <div class="card" style="width:550px">
+           <!--  <img class="card-img-top imgArt" src="/home/assets/img/fototgbg.jpg" alt="Card image"> -->
+            <div class="card-body">
+              <h4 class="card-title styleheadingarticle2">Detail Tug Boat, Tongkang dan LCT</h4>
+              <a class="btn btn-read" href="#" role="button">Read More &raquo;</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
